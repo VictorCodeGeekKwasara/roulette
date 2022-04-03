@@ -34,7 +34,6 @@ const secret = new Uint8Array(arr);
 const treasuryWallet = web3.Keypair.fromSecretKey(secret) ;
 console.log(treasuryWallet.publicKey.toString());
 
-;
 const arr2 = Object.values(userKp._keypair.secretKey);
 const userScrt = new Uint8Array(arr2);
 const userWallet = web3.Keypair.fromSecretKey(userScrt) ;
