@@ -11,5 +11,12 @@
     "roullete"
   ],
   "author": "victor kwasara",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.37.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "yargs-parser": "^21.0.0"
+  }
 }
